@@ -2,7 +2,7 @@ name: protractor-typescript-tsc-mocha-chai-should
 'on':
   push: null
   schedule:
-    - cron: 0 5 2-31/2 * *
+    - cron: 40 1 2-31/2 * *
 jobs:
   build:
     runs-on: ubuntu-latest
